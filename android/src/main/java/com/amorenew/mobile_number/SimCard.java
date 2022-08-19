@@ -61,6 +61,7 @@ public class SimCard {
             json.put("countryIso", countryIso);
             json.put("countryPhonePrefix", countryPhonePrefix);
         } catch (JSONException e) {
+            Log.i("FLUTTER", "TEST IT");
             e.printStackTrace();
         }
         return json;
